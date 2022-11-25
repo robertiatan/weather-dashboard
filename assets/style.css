@@ -10,19 +10,21 @@ body {
 }
 
 .navbar {
-    height: 150px!important;
+    height: 100px;
 }
 
 #cityInfo,
 #uvIndexColor,
 li {
-    color: black!important;
+    color: black;
 }
 
 #searchResults,
 #cityInfo,
 .card {
     background-color: #bb875dbb!important;
+    max-width: 50vw;
+    border-color: white;
 }
 
 #cityInfo p {
@@ -33,21 +35,28 @@ li {
     height: 100vh;
 }
 
-#fiveDay .card {
-    display: inline-flexbox;
-}
-
 #searchHistory li {
     list-style: none;
     font-size: 20px;
     color: blue!important;
+}
+#searchHistory li:hover {
+    cursor: pointer;
 }
 
 p {
     color: blue;
 }
 
-h2, h3, h4, h5 {
+h3 {
+    background-color: #bb875dbb!important;
+    max-width: 12vw;
+    border-color: white;
+    color: white;
+    padding-left: 20px;
+}
+
+h2, h4, h5 {
     color: #ffffff;
 }
 

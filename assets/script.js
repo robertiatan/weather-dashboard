@@ -93,7 +93,7 @@ function search(city) {
                         <div class="card-body">
                             <p>${iconPic}</p>
                             <p>${currDate}</p>
-                            <p>Temperature: ${fiveDayArray[i].main.temp} °Celsius</p>
+                            <p>Temperature: ${fiveDayArray[i].main.temp} °C</p>
                             <p>Humidity: ${fiveDayArray[i].main.humidity}\%</p>
                         </div>
                     </div>

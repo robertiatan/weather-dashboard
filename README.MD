@@ -16,7 +16,7 @@
 
 ### Here is a screenshot showcasing the functionality of the application:
 
-![Gif showing functionality of application](./assets/images/Screenshot%202022-11-24%20231504.png)
+![Gif showing functionality of application](./assets/images/Screenshot%202022-11-25%20000451.png)
 
 ### This is a link to the GitHub repository:
 https://github.com/robertiatan/weather-dashboard
