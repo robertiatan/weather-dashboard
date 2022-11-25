@@ -2,9 +2,10 @@ body {
     background-image: url(https://images.theconversation.com/files/232705/original/file-20180820-30593-1nxanpj.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
-#weatherContent {
+#forecast {
     display: none;
 }
 
@@ -12,16 +13,20 @@ body {
     height: 150px!important;
 }
 
-#cityDetail,
+#cityInfo,
 #uvIndexColor,
 li {
-    color: #5879bb!important;
+    color: black!important;
 }
 
 #searchResults,
-#cityDetail,
+#cityInfo,
 .card {
     background-color: #bb875dbb!important;
+}
+
+#cityInfo p {
+    color:blue;
 }
 
 #searchResults {
@@ -29,16 +34,17 @@ li {
 }
 
 #fiveDay .card {
-    border: 1px solid white!important;
+    display: inline-flexbox;
 }
 
 #searchHistory li {
-    background-color: #97A6A4;
-    color: #f8f8ff!important;
+    list-style: none;
+    font-size: 20px;
+    color: blue!important;
 }
 
 p {
-    color: #D9B779;
+    color: blue;
 }
 
 h2, h3, h4, h5 {
@@ -49,3 +55,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #20756a;
 }
+
+/* #uvIndexColor {
+    background-color: #ffffff94!important;
+} */
